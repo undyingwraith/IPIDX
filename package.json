@@ -1,0 +1,14 @@
+{
+  "name": "ipfs-indexer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "install": "lerna bootstrap",
+    "build": "lerna run build",
+    "dev": "lerna run watch"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
